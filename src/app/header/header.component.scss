@@ -1,0 +1,115 @@
+.header {
+    width: 100%;
+    background-color: #4B565E;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    color: white;
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 16px
+}
+
+.header-logo {
+    margin-right: 40px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-item {
+    margin-right: 40px;
+}
+
+.header-2 {
+    color: white;
+    background-color: #F0BA4E;
+    width: 100%;
+}
+
+.header-container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 1320px;
+    margin: 0 auto;
+    height: 48px;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-left-2{
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-2 {
+    display: flex;
+}
+
+.header-nav-2-item {
+    margin-right: 40px;
+}
+
+.header-right-2 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.search {
+    background: none;
+    border: none;
+    color: white;
+}
+
+.map {
+    display: flex;
+    align-items: center;
+}
+
+.country {
+    border: none;
+    color: white;
+    gap: 10px;
+    background-color: transparent;
+}
+
+.phone-number {
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+    text-underline-position: from-font;
+}
+
+.cart {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+    color: white;
+    border-width: 1px;
+    border-radius: 50px;
+    border: 2px solid #F0BA4E;
+    background: transparent;
+}
