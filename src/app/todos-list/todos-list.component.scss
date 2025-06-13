@@ -1,4 +1,4 @@
-.user-card {
+.todo-card {
   display: flex; 
   width: 100%; 
   flex-wrap: wrap;
@@ -9,6 +9,6 @@
   margin: 16px;
 }
 
-.user-card:hover {
+.todo-card:hover {
   transform: translateY(-4px);
 }

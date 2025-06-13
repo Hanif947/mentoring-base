@@ -1,0 +1,25 @@
+.user-info {
+  width: 240px; 
+  height: 230px; 
+  border: 1px solid black; 
+  margin: 5px; 
+  padding: 10px;
+}
+
+.user-info p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.delete-btn {
+  margin-top: 12px;
+  background-color: white;
+  border: 2px solid #ff4d4f;
+  color: #ff4d4f;
+  padding: 8px 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
