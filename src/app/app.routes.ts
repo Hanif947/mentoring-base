@@ -6,14 +6,12 @@ import { TodosListComponent } from './todos-list/todos-list.component';
 export const routes: Routes = [
     {
         path: 'users',
-        component: UsersListComponent,
+        component: UsersListComponent
     },
-
     {
         path: '',
-        component: HomepageComponent,
+        component: HomepageComponent
     },
-
     {
         path: 'todos',
         component: TodosListComponent

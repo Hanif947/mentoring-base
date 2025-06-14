@@ -1,9 +1,9 @@
 <div class="todo-info">
     <p>Автор задачи:</p>
-    <div>{{todo.userId}}</div>
+    <div>{{ todo.userId }}</div>
     <p>Teкст задачи:</p>
-    <div>{{todo.title}}</div>
+    <div>{{ todo.title }}</div>
     <p>Задача завершена:</p>
-    <div>{{todo.completed ? 'Yes':'No'}}</div>
+    <div>{{ todo.completed ? 'Yes':'No' }}</div>
     <button (click)="ondeleteTodo(todo.id)" class="delete-btn">Delete todo</button>
 </div>
